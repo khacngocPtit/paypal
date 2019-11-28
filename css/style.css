@@ -1,0 +1,137 @@
+body,html{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: monospace;
+}
+img{
+	width: 100%;
+}
+.box{
+	border:1px solid #ccc;
+	border-radius: 10px;
+	width: 50%;
+	margin:0 auto;
+}
+.box__header{
+	display: flex;
+	padding:10px 20px;
+	width:auto;
+	background-color: #eaeced;
+	border-radius: 10px 10px 0 0;	
+}
+.box__header .header-icon{
+	width: 10px;
+	height:10px;
+	background-color: #d8d8d8;
+	border-radius: 50%;
+	margin-right:10px;
+}
+.box__content{
+	padding:1rem;
+}
+.content{
+	border:1px solid #ccc;
+	padding:1.5rem;
+}
+.logo__invoice{
+	display:flex;
+	justify-content: space-between;
+}
+.logo__invoice .logo{
+	width: 20%;
+}
+.logo__invoice .offset-6{
+	width: 55%;
+}
+.logo__invoice .invoice{
+	width: 25%;
+}
+.logo__invoice .invoice h2{
+	margin: 5px 0;
+	font-weight: 900;
+	font-size: 25px;
+	color: gray;
+	padding-right: 15px;
+}
+.personal-information{
+	display: flex;
+	margin-top:1.2rem;
+}
+.personal-information .person{
+	width: 50%;
+    
+    line-height:1rem;
+    margin: 0;
+}
+.personal-information .person strong{
+	font-size: 18px;
+	margin-bottom:1rem;
+}
+.personal-information .person p{
+	font-size: 16px;
+}
+.personal-information .person .email{
+	margin-bottom: 3.5rem;
+}
+
+.personal-information .person .mt-2{
+	margin-top:20px;
+}
+.personal-information .date-address{
+	width: 50%;
+}.personal-information .date-address table{
+	width: 100%;
+}
+.personal-information .date-address table td{
+	border:1px solid #ffffff;
+	width: 48%;
+}
+.bg-primary{
+	background-color: #d9f0fa;
+	font-weight: bold;
+	font-size: 16px;
+	padding:0.7rem;	
+}
+.bg-light{
+	background-color: #f9f9f9;
+}
+.col-6{
+	width: 50%;
+}
+.col-2{
+	width: 16.66667%;
+	text-align: right;
+}
+.col-3{
+	width: 25%;
+}
+td{
+	padding:0.5rem;
+
+}
+.btn{
+	background-color: #ccc;
+	border:0;
+	padding:0.3rem;
+	width: 20%;
+	margin-top:1rem;
+	font-size: 16px;
+	font-weight: 600;
+	cursor: pointer;
+}
+.btn.btn-primary{
+	color: #fff;
+	background-color:#0ca1df;
+}
+.box__footer{
+	padding:1rem;
+}
+.box__footer .copyright{
+	text-align: center;
+	color: inherit;
+}
+.hr{
+	padding-bottom: 2rem;
+	border-bottom: 2px solid #ccc;
+}
